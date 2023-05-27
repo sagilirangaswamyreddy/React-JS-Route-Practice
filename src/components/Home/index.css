@@ -1,0 +1,27 @@
+.home-container {
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 90vh;
+}
+
+.home-img-styles {
+  width: 250px;
+}
+
+.home-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 56px;
+  color: #551e53;
+}
+
+@media (max-width: 767px) {
+  .home-img-styles {
+    width: 200px;
+  }
+}
